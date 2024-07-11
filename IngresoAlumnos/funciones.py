@@ -62,7 +62,3 @@ def reporte_sueldos():
             sueldo_liquido = sueldo - descuento_salud - descuento_afp
             archivo.writerow([trabajador["nombre"], trabajador, sueldo, descuento_salud, descuento_afp, sueldo_liquido])
             print(f"NOMBRE EMPLEADO: {trabajador['nombre']}  SUELDO BASE: ${sueldo} DESCUENTO SALUD: ${descuento_salud:.2f} DESCUENTO AFP: ${descuento_afp:.2f} SUELDO LIQUIDO: ${sueldo_liquido:.2f}")
-
-
-    curso[posicion-1] = [nombreNuevo, apellidoNuevo, cursoNuevo, promedioNuevo]
-    print("Se modificó el estudiante correctamente.")
